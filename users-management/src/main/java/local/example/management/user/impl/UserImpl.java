@@ -23,13 +23,13 @@ import local.example.management.user.User;
 public abstract class UserImpl 
 	implements User {
 
-	protected static final long ID_EDEFAULT = 0L;
-	protected static final String NAME_EDEFAULT = "John";
-	protected static final String SURNAME_EDEFAULT = "Do";
+	protected static final long ID_DEFAULT = 0L;
+	protected static final String NAME_DEFAULT = "John";
+	protected static final String SURNAME_DEFAULT = "Do";
 	
-	protected long id = ID_EDEFAULT;
-	protected String name = NAME_EDEFAULT;
-	protected String surname = SURNAME_EDEFAULT;
+	protected long id = ID_DEFAULT;
+	protected String name = NAME_DEFAULT;
+	protected String surname = SURNAME_DEFAULT;
 
 	protected UserImpl() {
 		super();
